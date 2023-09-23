@@ -568,7 +568,7 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 15px;
+  gap: 0px;
   margin: 0 -15px;
   padding: 25px 15px;
   padding-bottom: 35px;
@@ -587,13 +587,12 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  transform: translate(15px, -25px);
+  transform: translate(10px, 5px);
   background: var(--bg-gradient-onyx);
   border-radius: 14px;
   box-shadow: var(--shadow-1);
 }
 
-.testimonials-item-title { margin-bottom: 7px; }
 
 .testimonials-text {
   color: var(--light-gray);
@@ -1411,7 +1410,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .testimonials-title { margin-bottom: 25px; }
 
   .testimonials-list {
-    gap: 30px;
+    gap: 0px;
     margin: 0 -30px;
     padding: 30px;
     padding-bottom: 35px;
@@ -1423,15 +1422,14 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .testimonials-avatar-box {
-    transform: translate(30px, -30px);
+    /*transform: translate(30px, -30px);*/
     border-radius: 20px;
   }
 
   .testimonials-avatar-box img { width: 80px; }
 
   .testimonials-item-title {
-    margin-bottom: 10px;
-    margin-left: 95px;
+    margin-left: 85px;
   }
 
   .testimonials-text {
@@ -1886,4 +1884,13 @@ textarea.form-input::-webkit-resizer { display: none; }
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; /* To align items vertically in center */
+}
+
+.logo {
+  margin-right: 20px; /* Optional: To give some space between the logos */
 }
